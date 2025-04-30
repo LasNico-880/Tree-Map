@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+#description {
+  margin-bottom: 20px;
+}
+svg {
+  display: block;
+  margin: auto;
+}
+.tile {
+  stroke: white;
+}
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 12px;
+  opacity: 0;
+}
+#legend {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.legend-item {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid black;
+}
+.legend-label {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
